@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "Ola, CodeLAB!!"
+echo "Olá, CodeLAB!!"
