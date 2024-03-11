@@ -1,5 +1,7 @@
 FROM ubuntu:20.04
 
-COPY hello.sh ./
+WORKDIR /app
 
-CMD [ "./hello.sh" ]
+COPY hello.sh /app
+
+CMD [ "/app/hello.sh" ]
