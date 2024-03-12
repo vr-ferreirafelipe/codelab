@@ -3,6 +3,9 @@ version: "3"
 services:
   hello-codelab:
     container_name: hello-codelab
-    image: hello:2.0
+    # image: hello:2.0
+    build:
+      context: .
+      dockerfile: Dockerfile
     volumes:
       - ./:/app
